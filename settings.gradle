@@ -1,0 +1,9 @@
+include ':app'
+rootProject.name = "FlyBird"
+dependencyResolutionManagement {
+    repositories {
+        google()
+        jcenter()
+        maven {url 'https://developer.huawei.com/repo/'}
+    }
+}
